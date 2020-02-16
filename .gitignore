@@ -1,0 +1,10 @@
+/out
+**.map
+**.js
+**.d.ts
+**.tsbundleinfo
+**.tsbuildinfo
+**.d.ts.map
+.idea
+
+
