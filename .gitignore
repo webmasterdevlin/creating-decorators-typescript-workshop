@@ -6,5 +6,6 @@
 **.tsbuildinfo
 **.d.ts.map
 .idea
+node_modules
 
 
