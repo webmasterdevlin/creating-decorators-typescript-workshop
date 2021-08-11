@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "insta-email",
-  "version": "1.0.0",
+  "version": "1.0.38",
   "description": "for typescript demo",
   "main": "index.js",
   "scripts": {
