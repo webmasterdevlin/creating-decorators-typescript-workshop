@@ -1,28 +1,25 @@
 import { Email } from "./models/Email";
 
 export function sendTS(email: Email): void {
-  // @ts-ignore
   global.window.open(
     `mailto:${email.mailto}?subject=${email.subject}&body=${email.body}`
   );
 }
 
-// @ts-ignore
-export function sendJS(email) {
-  // @ts-ignore
+export function sendJS(email): void {
   global.window.open(
     `mailto:${email.mailto}?subject=${email.subject}&body=${email.body}`
   );
 }
 
 export function tryPropsDecorator(): PropertyDecorator {
-  return function(target: Object, propertyKey: string | symbol): void {
+  return function (target: Object, propertyKey: string | symbol): void {
     console.log("tryPropsDecorator target::", target);
   };
 }
 
 export function tryMethodDecorator(): MethodDecorator {
-  return function(
+  return function (
     target: Object,
     propertyKey: string | symbol,
     descriptor: PropertyDescriptor
