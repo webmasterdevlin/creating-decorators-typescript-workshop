@@ -1,4 +1,8 @@
-# Publishing a TypeScript library + decorators demo
+# Creating decorators TypeScript workshop
+
+## Requirements
+
+- nodejs runtime from nodejs.org
 
 ## This NPM package is part of my TypeScript Workshop
 
